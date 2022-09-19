@@ -1,0 +1,47 @@
+.navbar {
+	background-color: black;
+	overflow: hidden;
+}
+
+.navbar a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.board {
+	border: solid 1px black;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 400%;
+  }
+  
+.board td {
+	text-align: center;
+	border: solid 1px black;
+	width: 60px;
+	height: 20px;
+}
+  
+.msg {
+	padding: 1em;
+}
+  
+.msg.ok {
+	color: white;
+	background-color: green;
+}
+  
+  .msg.err {
+	color: white;
+	background-color: tomato;
+  }
+  
